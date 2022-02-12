@@ -1,6 +1,12 @@
 .jumbotron {
   padding: 2rem 0 0 0 !important;
-  img {
-    border-radius: 5%;
+  .container {
+    width: 70%;
+    .text {
+      margin-top: 50px;
+    }
+    img {
+      border-radius: 5%;
+    }
   }
 }

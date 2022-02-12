@@ -1,14 +1,8 @@
-import React from 'react';
-import './index.scss';
-import Fade from 'react-reveal/Fade';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-} from '@fortawesome/fontawesome-svg-core/import.macro'; // <-- import styles to be used
+import React from "react";
+import "./index.scss";
+import Fade from "react-reveal/Fade";
 
-import Profile from '../../Assets/img/profile.JPG';
+import Profile from "../../Assets/img/profile.JPG";
 
 function index() {
   return (
@@ -17,15 +11,11 @@ function index() {
         <div className="container">
           <div className="row">
             <div className="col-8">
-              <h1 class="display-4">
+              <h1 class="display-4 text">
                 Hello, I am <br /> M.Rinaldi Hasanudin
               </h1>
               <h2>Front-end Developer</h2>
-              <div>
-                <FontAwesomeIcon icon={solid('user-secret')} />
-                <FontAwesomeIcon icon={regular('coffee')} />
-                <FontAwesomeIcon icon={brands('twitter')} />
-              </div>
+              <div>link develope</div>
             </div>
             <div className="col-4">
               <img
