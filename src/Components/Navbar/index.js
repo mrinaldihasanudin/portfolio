@@ -1,13 +1,13 @@
-import React from "react";
-import "./index.scss";
+import React from 'react';
+import './index.scss';
+import { Link } from 'react-scroll';
+import { Link as NavLink } from 'react-router-dom';
 
 function index() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
+        <NavLink class="navbar-brand" href="#"></NavLink>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,25 +22,30 @@ function index() {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <NavLink to="#" class="nav-link point">
+                Home
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link to="about" smooth={true} class="nav-link point">
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Development
-              </a>
+              <Link to="development" smooth={true} class="nav-link point">
+                Learning
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link to="skill" smooth={true} class="nav-link point">
                 Skills
-              </a>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link to="contact" smooth={true} class="nav-link point">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

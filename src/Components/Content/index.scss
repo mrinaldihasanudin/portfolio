@@ -1,0 +1,40 @@
+.card-property {
+  width: 18rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.border-property {
+  padding: 5px;
+  border: 1px solid darkgrey;
+  box-shadow: 1px 1px 5px 1px gray;
+  border-radius: 50px;
+  width: 60%;
+  margin: auto;
+}
+.card-property {
+  border: 1px solid darkgrey;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.font-property {
+  font-size: 35px;
+}
+.contact-property {
+  padding: 0 150px 0 150px;
+}
+@media only screen and (max-width: 425px) {
+  .border-property {
+    width: 80%;
+  }
+  .font-property {
+    font-size: 25px;
+  }
+  .contact-property {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .img-property {
+    width: 90px;
+  }
+}

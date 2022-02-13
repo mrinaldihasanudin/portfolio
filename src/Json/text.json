@@ -1,0 +1,84 @@
+{
+  "about": {
+    "text": "I would like to thank you for visiting this website. Let me introduce my self, My name is M.Rinaldi Hasanudin. Im Front-end Developer who happened to have skill of slicing and develope UX design from Designer."
+  },
+  "link": [
+    {
+      "href": "https://github.com/mrinaldihasanudin",
+      "icon": "faGithubSquare"
+    },
+    {
+      "href": "https://www.instagram.com/mrinaldi_h/",
+      "icon": "'fab', 'fa-github-square'",
+      "id": "true"
+    },
+    {
+      "href": "https://www.facebook.com/muhamad.h.18/",
+      "icon": "fab', 'fa-github-square"
+    }
+  ],
+  "card": [
+    {
+      "title": "Nomads with Laravel",
+      "text": "I'm learning to make a Full-Stack Web Developer website with the Laravel framework from Build With Angga course.",
+      "href": "https://github.com/mrinaldihasanudin/Nomads",
+      "images": "images/nomads_1.png"
+    },
+    {
+      "title": "Dibiyou",
+      "text": "I'm learning to make a Dibiyou from apprenticeship with other member.",
+      "href": "https://dibiyou.com",
+      "images": "images/dibiyou.png"
+    },
+
+    {
+      "title": "Nomads with ReactJs",
+      "text": "I'm learning to make a Nomads from slicing Full-Stack Web Developer with the ReactJs. But it's still in development.",
+      "href": "https://github.com/mrinaldihasanudin/react-nomads",
+      "images": "images/nomads_1.png"
+    },
+    {
+      "title": "Mern",
+      "text": "I'm learning to make a Full-Stack Javascript Developer: Website Travel with the MERN in the Build With Angga course. But it's still in development.",
+      "href": "https://github.com/mrinaldihasanudin/mern",
+      "images": "images/mern_1.png"
+    }
+  ],
+  "skill": [
+    {
+      "src": "images/html.png",
+      "text": "HTML",
+      "width": 120
+    },
+    {
+      "src": "images/css.png",
+      "text": "CSS",
+      "width": 120
+    },
+    {
+      "src": "images/sass.png",
+      "text": "SCSS",
+      "width": 180
+    },
+    {
+      "src": "images/bootstrap.png",
+      "text": "BOOTSTRAP",
+      "width": 120
+    },
+    {
+      "src": "images/javascript.png",
+      "text": "JAVASCRIPT",
+      "width": 120
+    },
+    {
+      "src": "images/reactjs.png",
+      "text": "REACTJS",
+      "width": 130
+    },
+    {
+      "src": "images/git.png",
+      "text": "GIT",
+      "width": 120
+    }
+  ]
+}
