@@ -8,7 +8,7 @@ import Profile from '../../Assets/img/profile.JPG';
 function index() {
   return (
     <section class="jumbotron pt-3 pt-sm-5 pt-md-5">
-      <Fade>
+      <Fade delay={500}>
         <div className="container">
           <div className="row">
             <div className="text-lg-left text-md-center text-sm-center text-center col-lg-7 order-lg-1 order-md-2 order-sm-2 order-2 pt-lg-5 pt-md-5">
